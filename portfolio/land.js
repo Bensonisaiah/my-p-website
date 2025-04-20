@@ -1,3 +1,3 @@
-console.log(`hello`);
-console.log('hello again');
-window.alert('fuck');
+//console.log(`hello`);
+//console.log('hello again');
+//window.alert('fuck');
