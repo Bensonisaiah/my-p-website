@@ -1,0 +1,18 @@
+body{
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainwrapper{
+    background-color: blueviolet;
+    border-radius: 3px;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+    align-content: center;
+    display: flex;
+}
+p{
+    display: block;
+}

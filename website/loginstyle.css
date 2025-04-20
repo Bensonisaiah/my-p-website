@@ -1,0 +1,87 @@
+@import url();
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(image/4K-White-Backgrounds-Free-Download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px, solid, purple;
+    border-radius: 9px;
+    color: #fff;
+    padding: 50px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 1px black;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 49px;
+    color: purple;
+    margin-top: -20px;
+}
+.wrapper input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    align-items: center;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid;
+    padding: 10px;
+    outline: none;
+    border-radius: 40px;
+    border-color: black;
+}
+.register-link p{
+    color: black;
+}
+.remember-forgot{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;}
+.remember-forgot label{
+    color: black;
+}
+.btn{
+    width: 100%;
+    background: purple;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+}
+.input-box ::placeholder{
+    color: rgb(70, 4, 70);
+    font-size: 15px;
+}
+.input-box input {
+    color: rgb(70, 4, 70);
+    font-size: 18px;
+}
+.register-link{
+    text-align: center;
+    margin-top: 20px;
+}
+.register-link p a{
+    color: purple;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.btn:hover{
+    background: rgb(73, 3, 73);
+}

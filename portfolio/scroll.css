@@ -1,0 +1,15 @@
+img{
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+}
+.scroll{
+    background-image: url(image/Download\ Ai\ generative\ Happy\ Business\ man\ in\ a\ suit\ white\ transparent\ background\ for\ free.jpg);
+    height: 400px;
+    margin-top: -64px; 
+    background-position-y: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

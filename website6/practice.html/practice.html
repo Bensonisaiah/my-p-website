@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="pstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li class="x" onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#">FORUM</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SETTINGS</a></li>
+            <li  class="login"><a href="login.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z"/></svg>LOGIN</a></li>
+        </ul>
+        <ul>
+            <li><img src="image/izibillions.jpg" style="width: 100px; height: 100%; border-bottom-right-radius: 10px; border-top-right-radius: 10px;"></li>
+            <li class="hideonmobile"><a href="#">BLOG</a></li>
+            <li class="hideonmobile"><a href="#">PRODUCT</a></li>
+            <li class="hideonmobile"><a href="#">FORUM</a></li>
+            <li class="hideonmobile"><a href="https:/&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGOb7FVlUM&#x2F;CefBGW8bCzJvwJNP4f_Hlg&#x2F;watch?utm_content=DAGOb7FVlUM&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link">ABOUT</a></li>
+            <li class="hideonmobile"><a href="#">SETTINGS</a></li>
+            <li class="hideonmobile"><a href="login.html">LOGIN</a></li>
+            <li class="menu-button" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" style="color: black;" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="welcome">
+        <h1><U>WELCOME TO THE IZIBILLIONS WORLD OF WONDERS</U></h1>
+    </div>
+
+    <script>
+        function showsidebar(params) {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar(params) {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>

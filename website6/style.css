@@ -1,0 +1,81 @@
+body{
+    background-image: url(image/4K-White-Backgrounds-Free-Download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+h1{
+    font-size: 70px;
+    color: rgb(80, 6, 80);
+    border-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    height: 45px;
+    width: 85px;
+    background-color: rgb(80, 6, 80);
+    color: white;
+    margin-right: 5%;
+    align-content: center;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: rgb(66, 6, 66);
+    color: rgb(245, 235, 221);
+}
+button:active{
+    background-color: rgb(55, 55, 63);
+}
+#back{
+    height: 25px;
+    width: 30px;
+    background-color: rgb(80, 6, 80);
+    color: white;
+}
+#search{
+    height:35px;
+    width: 70%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(4, 4, 49);
+    margin-left: 70px;
+    background-color: white;
+    font-size: 16px;
+    padding: 15px;
+
+}
+footer{
+    background: linear-gradient(rgb(4, 4, 45),rgb(4, 4, 45),rgb(4, 4, 45),rgb(4, 4, 45),rgb(4, 4, 45),rgb(4, 4, 45),black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    border-radius: 4px;
+    border-left: 40px;
+}
+.long{
+    width: 420px;
+    background-color: rgb(80, 6, 80);
+}
+.long:hover{
+    color: rgb(245, 235, 221);
+    background-color: rgb(8, 3, 58);
+}
+.fa-arrow-left{
+    font-size: 35px;
+    margin-left: 10px;
+    color: rgb(54, 51, 51);
+    box-shadow: 10px;
+}
+.fa-arrow-left:hover{
+    color: black;
+}
+.fa-arrow-left:active{
+    color: rgb(134, 125, 125);
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgb(80, 6, 80);
+    box-shadow: 10px;
+}

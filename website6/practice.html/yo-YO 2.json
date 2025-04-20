@@ -1,0 +1,241 @@
+{
+    "emptyTable": "Ko si data ti o wa ninu tabili",
+    "loadingRecords": "Nṣiṣẹ...",
+    "processing": "Ìsèdájọ...",
+    "aria": {
+        "sortAscending": ": muu ṣiṣẹ lati ṣe tito lẹsẹsẹ gẹgẹ bi ipo oke",
+        "sortDescending": ": muu ṣiṣẹ lati ṣe tito lẹsẹsẹ gẹgẹ bi ipo isalẹ"
+    },
+    "select": {
+        "rows": {
+            "_": "%d awọn ila ti a yan",
+            "1": "1 ila ti a yan"
+        },
+        "cells": {
+            "1": "1 sẹẹli ti a yan",
+            "_": "%d sẹẹli ti a yan"
+        },
+        "columns": {
+            "1": "1 kọọlu ti a yan",
+            "_": "%d awọn kọọlu ti a yan"
+        }
+    },
+    "autoFill": {
+        "cancel": "Fagilee",
+        "fill": "Fọwọsi gbogbo awọn sẹẹli pẹlu <i>%d<\/i>",
+        "fillHorizontal": "Fọwọsi awọn sẹẹli ni inaro",
+        "fillVertical": "Fọwọsi awọn sẹẹli ni itosi"
+    },
+    "searchBuilder": {
+        "conditions": {
+            "date": {
+                "after": "Lẹhin",
+                "before": "Ṣaaju",
+                "between": "Laarin",
+                "empty": "Ṣofo",
+                "not": "Ko yatọ si",
+                "notBetween": "Kii ṣe laarin",
+                "notEmpty": "Kii ṣe ṣofo",
+                "equals": "Dọgba si"
+            },
+            "number": {
+                "between": "Laarin",
+                "empty": "Ṣofo",
+                "gt": "Ga ju",
+                "gte": "Ga ju tabi dogba si",
+                "lt": "Kere ju",
+                "lte": "Kere ju tabi dogba si",
+                "not": "Ko yatọ si",
+                "notBetween": "Kii ṣe laarin",
+                "notEmpty": "Kii ṣe ṣofo",
+                "equals": "Dọgba si"
+            },
+            "string": {
+                "contains": "Ni inu rẹ",
+                "empty": "Ṣofo",
+                "endsWith": "Pari pẹlu",
+                "not": "Ko yatọ si",
+                "notEmpty": "Kii ṣe ṣofo",
+                "startsWith": "Bẹrẹ pẹlu",
+                "equals": "Dọgba si",
+                "notContains": "Kii ṣe ni inu rẹ",
+                "notEnds": "Kii ṣe pari pẹlu",
+                "notStarts": "Kii ṣe bẹrẹ pẹlu"
+            },
+            "array": {
+                "empty": "Ṣofo",
+                "contains": "Ni inu rẹ",
+                "not": "Ko yatọ si",
+                "notEmpty": "Kii ṣe ṣofo",
+                "without": "Laisi",
+                "equals": "Dọgba si"
+            }
+        },
+        "add": "Ṣe afikun ipo kan",
+        "button": {
+            "0": "Ìwádìí àlẹmọ",
+            "_": "Ìwádìí àlẹmọ (%d)"
+        },
+        "clearAll": "Pa gbogbo rẹ mọ",
+        "condition": "Ipo",
+        "data": "Alaye",
+        "deleteTitle": "Pa ofin àlẹmọ rẹ",
+        "logicAnd": "Ati",
+        "logicOr": "Tabi",
+        "title": {
+            "0": "Ìwádìí àlẹmọ",
+            "_": "Ìwádìí àlẹmọ (%d)"
+        },
+        "value": "Iye"
+    },
+    "searchPanes": {
+        "clearMessage": "Pa gbogbo rẹ mọ",
+        "count": "{total}",
+        "title": "Àlẹmọ lọwọlọwọ - %d",
+        "collapse": {
+            "0": "Ìwádìí apanilowokan",
+            "_": "Ìwádìí apanilowokan (%d)"
+        },
+        "countFiltered": "{shown} ({total})",
+        "emptyPanes": "Ko si apanilowokan àlẹmọ",
+        "loadMessage": "Ìkókojá apanilowokan àlẹmọ...",
+        "collapseMessage": "Dín gbogbo rẹ kọ́",
+        "showMessage": "Fi gbogbo rẹ han"
+    },
+    "buttons": {
+        "collection": "Àkójọpọ̀",
+        "colvis": "Ìfarahàn kọọlu",
+        "colvisRestore": "Tun ìfarahàn ṣe",
+        "copy": "Daakọ",
+        "copySuccess": {
+            "1": "Laini 1 ti daakọ sí àtẹle-iṣẹ",
+            "_": "%ds laini ti daakọ sí àtẹle-iṣẹ"
+        },
+        "copyTitle": "Daakọ sí àtẹleṣẹ́",
+        "csv": "CSV",
+        "excel": "Excel",
+        "pageLength": {
+            "-1": "Fihan gbogbo awọn laini",
+            "_": "Fihan %d laini"
+        },
+        "pdf": "PDF",
+        "print": "Tẹjade",
+        "copyKeys": "Tẹ ctrl tabi u2318 + C lati daakọ awọn data tabili sinu àtẹleṣẹ́ rẹ.",
+        "createState": "Ṣẹda ipo kan",
+        "removeAllStates": "Pa gbogbo ipo rẹ mọ",
+        "removeState": "Pa mọ",
+        "renameState": "Tun orukọ ṣe",
+        "savedStates": "Àwọn ipo ti a fipamọ́",
+        "stateRestore": "Ìpo %d",
+        "updateState": "Tunse ipo"
+    },
+    "decimal": ",",
+    "search": "Ṣawari:",
+    "datetime": {
+        "previous": "Tẹ́lẹ̀",
+        "next": "Tó n bọ̀",
+        "hours": "Wákàtí",
+        "minutes": "Ìsẹ́jú",
+        "seconds": "Ìsẹ́jú aaya",
+        "unknown": "-",
+        "amPm": [
+            "àárọ̀",
+            "ọ̀sán"
+        ],
+        "months": {
+            "0": "Ṣẹ́rè",
+            "1": "Èrèlè",
+            "2": "Ẹ̀rẹ̀nà",
+            "3": "Ìgbé",
+            "4": "Ẹ̀bibi",
+            "5": "Òkúdu",
+            "6": "Agẹmo",
+            "7": "Ògún",
+            "8": "Owewe",
+            "9": "Ọ̀wàrà",
+            "10": "Belu",
+            "11": "Ọ̀pẹ̀"
+        },
+        "weekdays": [
+            "Àìkú",
+            "Aje",
+            "Ìṣẹ́gun",
+            "Ọjọ́rú",
+            "Ọjọ́bọ̀",
+            "Ẹtì",
+            "Àbámẹ́ta"
+        ]
+    },
+    "editor": {
+        "close": "Pa mọ́",
+        "create": {
+            "title": "Ṣẹ́da ìwọ̀nba tuntun",
+            "button": "Tuntun",
+            "submit": "Ṣẹ́da"
+        },
+        "edit": {
+            "button": "Ṣatúnṣe",
+            "title": "Ṣatúnṣe Ìwọ̀nba",
+            "submit": "Tunse"
+        },
+        "remove": {
+            "button": "Pa mọ́",
+            "title": "Pa mọ́",
+            "submit": "Pa mọ́",
+            "confirm": {
+                "_": "Ṣé o dájú pé o fẹ́ pa %d awọn laini mọ́?",
+                "1": "Ṣé o dájú pé o fẹ́ pa laini 1 mọ́?"
+            }
+        },
+        "multi": {
+            "title": "Àwọn iye lọ́pọ̀",
+            "info": "Àwọn ohun tí a yàn ni àwọn iye onírúurú fún ìwọ̀nba yìí. Lati ṣatúnṣe gbogbo wọn si iye kan naa, tẹ̀ ibi yi, tabi wọn yoo tọju iye tiwọn.",
+            "restore": "Fagilee awọn ayipada",
+            "noMulti": "Ce champ peut être modifié individuellement, mais ne fait pas partie d'un groupe. Àwọn ààyè yìí le ṣe atunṣe lọ́tọ̀, ṣùgbọ́n kò jẹ́ apá kan ti ẹgbẹ."
+        },
+        "error": {
+            "system": "Aṣiṣe eto kan ṣẹlẹ̀ (<a target=\"\\\" rel=\"nofollow\" href=\"\\\">Alaye síi<\/a>)."
+        }
+    },
+    "stateRestore": {
+        "removeSubmit": "Pa mọ́",
+        "creationModal": {
+            "button": "Ṣẹ́da",
+            "order": "Àtẹ̀jáde",
+            "paging": "Ìṣàtúnṣe ojúewé",
+            "scroller": "Ipo àtúnyẹ́wọ̀",
+            "search": "Ṣàwárí",
+            "select": "Yíyàn",
+            "columns": {
+                "search": "Ṣàwárí nípa kọọlu",
+                "visible": "Ìfarahàn àwọn kọọlu"
+            },
+            "name": "Orúkọ:",
+            "searchBuilder": "Ìwádìí àlẹmọ",
+            "title": "Ṣẹ́da ìpo tuntun",
+            "toggleLabel": "Pẹlu:"
+        },
+        "renameButton": "Tun orúkọ ṣe",
+        "duplicateError": "Ìpo kan ti tẹlẹ pẹlu orúkọ yìí.",
+        "emptyError": "Orúkọ kò le jẹ́ ṣofo.",
+        "emptyStates": "Ko si ipo ti a fipamọ́",
+        "removeConfirm": "Ṣé o dájú pé o fẹ́ pa %s mọ́?",
+        "removeError": "Ìṣòro kan wà nípa ìpamọ̀ ipo yìí.",
+        "removeJoiner": "ati",
+        "removeTitle": "Pa ìpo mọ́",
+        "renameLabel": "Orúkọ tuntun fún %s:",
+        "renameTitle": "Tun orúkọ ìpo ṣe"
+    },
+    "info": "Ìfihàn láti _START_ sí _END_ nínú _TOTAL_ ìwọ̀nba",
+    "infoEmpty": "Ìfihàn láti 0 sí 0 nínú 0 ìwọ̀nba",
+    "infoFiltered": "(àlẹmọ láti ìwọ̀nba apapọ ti _MAX_)",
+    "lengthMenu": "Fihan _MENU_ ìwọ̀nba",
+    "paginate": {
+        "first": "Àkọ́kọ́",
+        "last": "Ìkẹyìn",
+        "next": "Tó n bọ̀",
+        "previous": "Tẹ́lẹ̀"
+    },
+    "zeroRecords": "Ko ri ìwọ̀nba tí ó báamu",
+    "thousands": "ẹgbẹ̀rún"
+}
