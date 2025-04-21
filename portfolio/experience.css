@@ -8,28 +8,22 @@ body{
     width: 100%;
     background-color: rgb(255, 255, 255);
 }
+/*nav*/
 .logo{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font: 1.8em 'poppins', sans-sarif;
+    font: 1em 'poppins', sans-sarif;
     font-style: italic ;
-    border-radius: 12px;
-    background-color: rgb(255, 255, 255);
-    width: 150px;
-    padding-right: 50PX;
-    border: 1px solid black;
-}
-.izi{
-    font: 1.8em 'poppins', sans-sarif;
-    font-style: italic;
-    color: rgb(185, 144, 0);
-    transition: 1s;
-}
-.izi:hover{
-    font: 2em 'poppins', sans-sarif;
-    font-style: italic;
-    color: rgb(185, 144, 0);
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(185, 144, 0);
+    width: 75px;
+    margin: 15px;
+    border: 0.1px solid rgb(255, 255, 255);
+    color: white;
 }
 nav{
     width: 100%;
@@ -39,11 +33,14 @@ nav{
     flex-wrap: nowrap;
     background: transparent;
     background-color: rgb(255, 255, 255);
-    border-top-right-radius: 12px;
     color: rgb(185, 144, 0);
     padding-right: 5%;
     padding-left: 3%;
     background-color: rgb(185, 144, 0);
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: 1000;
     
 }
 .sec{
@@ -67,82 +64,6 @@ nav a:hover{
     font-size: 0.9em;
     color: rgb(254, 252, 242);
     transition: 0.7s;
-}
-.hhh{
-    width: 100%;
-    height: 1px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30%;
-    color: black;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 90px;
-}
-.hh{
-    width: 100%;
-    height: 8px;
-    background-color: rgb(185, 144, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30%;
-    color: black;
-    border: 1px solid rgb(185, 144, 0);
-    border-radius: 90px;
-}
-img{
-    mix-blend-mode: multiply;
-    width: 250px;
-    border-radius: 0%;
-    border-bottom: 2px solid black;
-    transition: 0.5s;
-}
-img:hover{
-    width: 260px;
-}
-.down{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-}
-.trend{
-    background-color: rgb(185, 144, 0);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(20px);
-    backface-visibility: hidden;
-    border-bottom: 2px solid black;
-    height: 450px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    padding-top: 60px;
-}
-.now{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 60px;
-}
-.text{
-    width: 312px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-}
-.texting{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-}
-.name{
-    border-radius: 5px;
 }
 nav ul{
     width: 100%;
@@ -189,7 +110,7 @@ nav li:first-child a:hover{
     position: fixed;
     top: 0;
     right: 0;
-    height: 55vh;
+    height: 45vh;
     width: 300px;
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.233);
@@ -226,18 +147,14 @@ nav li:first-child a:hover{
 .menu-button{
     display: none;
 }
-.img12{
+/*nav ending*/
+footer{
+    font-size: 12px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.img34{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.proj{
-    padding-top: 100px;
+    justify-content: center;
+    align-items: end;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
 }
 @media(min-width: 900px){
     .boy{
@@ -322,5 +239,20 @@ nav li:first-child a:hover{
     .down{
         display: flex;
         flex-direction: column;
-    } 
+    }
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font: 0.8em 'poppins', sans-sarif;
+        font-style: italic ;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: rgb(185, 144, 0);
+        width: 60px;
+        border: 0.1px solid rgb(255, 255, 255);
+        color: white;
+    }
 }

@@ -10,12 +10,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;  
     background-color: #113d48; 
-    opacity: ;
+    opacity: initial;
 }
 .wrapper{
     width: 420px;
     background-color: cadetblue;
-    background: solid;
+    background: black;
     border: 2px, solid rgb(255, 255, 255);
     border-radius: 9px;
     color: #fff;
