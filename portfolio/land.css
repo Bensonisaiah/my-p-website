@@ -141,6 +141,11 @@ img:hover{
     align-items: center;
     align-self: center;
 }
+.at{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 .about{
     width: 120%;
     display: flex;
